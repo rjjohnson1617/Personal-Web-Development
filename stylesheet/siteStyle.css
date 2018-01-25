@@ -1,0 +1,77 @@
+.jumbotron {
+	position: absolute;
+	top: 58px;
+	bottom: 400px;
+	left: 0;
+	width: 100%;
+	background-color: #4CAF50;
+	text-align: center;
+	font-family: "Lucida Console";
+	background-image: url("../images/skyline.jpg");
+	background-size: 100% 150%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	position: absolute;
+	top: 500px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-family: "Lucida Console";
+	background-color: red;
+}
+
+.container p {
+	padding: 0;
+	line-height: 0;
+}
+
+.jumbotron h4 {
+	padding: 0;
+	line-height: 0;
+}
+
+ul {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 21px 20px;
+	text-decoration: none;
+	font-family: "Lucida Console";
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+li a.name {
+	text-transform: uppercase;
+	color: #4CAF50;
+	font-size: 30px;
+	padding: 14px 16px
+}
+
+.active {
+	background-color: #4CAF50;
+}
